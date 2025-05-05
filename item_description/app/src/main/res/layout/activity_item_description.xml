@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/desc_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/desc_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Title"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/desc_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item description goes here."
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/desc_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: Delhi"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/desc_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact: 1234567890"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/desc_deposit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deposit: ₹100"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/desc_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration: 5 days"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/desc_rent_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent Now"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/desc_chat_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Owner"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
