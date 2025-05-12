@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "872948209036",
+    "project_id": "sharecircle-1b711",
+    "storage_bucket": "sharecircle-1b711.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872948209036:android:f3e735957da2b8bbbd72a9",
+        "android_client_info": {
+          "package_name": "com.example.sharecircle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872948209036-gb1sacr8tjgpnr6jno67tkncfpplhpj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sharecircle",
+            "certificate_hash": "87b037cfaade935a243155bc7b0b096c46fc4ce6"
+          }
+        },
+        {
+          "client_id": "872948209036-6k86klrsahgmbhn0a9ikplg37npfjgj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpFNPqB6nnOT23Sl0nXwDswX0h7-sZmj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872948209036-6k86klrsahgmbhn0a9ikplg37npfjgj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
