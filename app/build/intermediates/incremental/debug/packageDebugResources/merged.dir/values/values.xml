@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">ShareCircle</string>
+    <string name="default_web_client_id" translatable="false">872948209036-6k86klrsahgmbhn0a9ikplg37npfjgj5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">872948209036</string>
+    <string name="google_api_key" translatable="false">AIzaSyBpFNPqB6nnOT23Sl0nXwDswX0h7-sZmj8</string>
+    <string name="google_app_id" translatable="false">1:872948209036:android:f3e735957da2b8bbbd72a9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBpFNPqB6nnOT23Sl0nXwDswX0h7-sZmj8</string>
+    <string name="google_storage_bucket" translatable="false">sharecircle-1b711.firebasestorage.app</string>
+    <string name="project_id" translatable="false">sharecircle-1b711</string>
+    <style name="Base.Theme.ShareCircle" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ShareCircle" parent="Base.Theme.ShareCircle"/>
+</resources>
